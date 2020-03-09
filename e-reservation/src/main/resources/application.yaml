@@ -1,0 +1,12 @@
+spring:
+  datasource:    url: jdbc:postgresql://192.168.99.100:5432/postgres
+    username: postgres
+    password: D2v2l4p2R
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      # ddl: data definition language
+      # Create db from models      ddl-auto: create-drop
+    # Show plain sql queries when is used the ORM 
+    generate-ddl: true
+    show-sql: true
